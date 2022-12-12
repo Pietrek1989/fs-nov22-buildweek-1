@@ -9,7 +9,6 @@ body, html{
 }
 .bg-img{
   height: 100%;
-  
 }
 .epicode-logo{
   height: 70px;
@@ -61,10 +60,10 @@ button{
   margin-top: 5em;
   font-weight: bold;
   text-align: center;
-  font-size: 1em;
+  font-size: 2em;
   border: none;
   place-items: center;
-  margin-bottom: 5em;
+  margin-bottom: 50px;
   cursor: pointer;
   box-shadow: 0 0 1em 0 #75fbfd;
 }
@@ -76,9 +75,12 @@ button{
   height: 70px;
   text-align: center;
   margin-left: 15px;
-  margin-bottom: 100px;
   pointer-events: none;
   cursor: pointer;
+  margin-bottom: 50px;
+}
+.star:hover{
+background-color: green;
 }
 #dark-star{
   filter: brightness(10%);
@@ -91,4 +93,7 @@ button{
 }
 #dark-star3{
   filter: brightness(10%);
+}
+a{
+  
 }
