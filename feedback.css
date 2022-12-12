@@ -1,0 +1,96 @@
+body, html{
+  height: 100%;
+  font-family:'Roboto', sans-serif;
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg-img{
+  height: 100%;
+}
+.epicode-logo{
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 4em;
+}
+h2{
+  color: white;
+  margin-left: 25%;
+  margin-bottom: 2em;
+  font-weight: normal;
+  font-size: 2em;
+  width: 100%;
+  letter-spacing: 3px;
+}
+h2 span{
+  margin-left: 14%
+}
+#text-input{
+  text-align: center;
+  margin-left: 24%;
+  background: transparent;
+  border: none;
+  height: 2em;
+  font-size: x-large ;
+}
+hr{
+  width:1000px;
+  height: 2px;
+  margin: auto;
+  background-color: #b22b89;
+  border: none
+}
+.button-div{
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+button{
+  background-color: #75fbfd;
+  height: 100px;
+  width: 350px;
+  margin-top: 5em;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  border: none;
+  place-items: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 1em 0 #75fbfd;
+}
+.stars{
+  text-align: center;
+}
+.star{
+  display: inline;
+  height: 70px;
+  text-align: center;
+  margin-left: 15px;
+  pointer-events: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.star:hover{
+background-color: green;
+}
+#dark-star{
+  filter: brightness(10%);
+}
+#dark-star1{
+  filter: brightness(10%);
+}
+#dark-star2{
+  filter: brightness(10%);
+}
+#dark-star3{
+  filter: brightness(10%);
+}
