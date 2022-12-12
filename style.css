@@ -26,9 +26,13 @@ h2{
   color: white;
   margin-left: 25%;
   margin-bottom: 2em;
-  font-weight: light;
+  font-weight: normal;
   font-size: 2em;
   width: 100%;
+  letter-spacing: 3px;
+}
+h2 span{
+  margin-left: 14%
 }
 #text-input{
   text-align: center;
@@ -76,4 +80,15 @@ button{
   pointer-events: none;
   cursor: pointer;
 }
-
+#dark-star{
+  filter: brightness(10%);
+}
+#dark-star1{
+  filter: brightness(10%);
+}
+#dark-star2{
+  filter: brightness(10%);
+}
+#dark-star3{
+  filter: brightness(10%);
+}
