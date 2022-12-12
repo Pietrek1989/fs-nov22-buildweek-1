@@ -1,72 +1,167 @@
 body {
-	color: white;
-	background: url(assets/bg.jpg) no-repeat center center fixed;
-	background-size: cover;
-    font-family: 'roboto', sans-serif;
-    margin: 0;
+  color: white;
+  background: url(assets/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "roboto", sans-serif;
+  margin: 0;
 }
 
 /* Style of result-page */
 
 .nav-logo {
-    width: 230px;
-    height: 60px;
-    margin-top: 40px;
-    margin-left: 94px;
+  width: 230px;
+  height: 60px;
+  margin-top: 40px;
+  margin-left: 94px;
 }
 .result {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 4em;
-    margin-bottom: 0;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4em;
+  margin-bottom: 0;
 }
 .summary {
-    text-align: center;
-    margin-top: 0;
-    font-weight: 100;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 100;
 }
 .score-container {
-    display: flex;
-    justify-content: space-around;
-    font-size: 2.2em;
-    font-weight: normal;
-    margin: 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.2em;
+  font-weight: normal;
+  margin: 0;
 }
 .score-container h2 {
-        margin: 0;
+  margin: 0;
 }
 .score-container .percent {
-    margin: 0;
-    font-weight: 900;
-    font-size: 1.3em;
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.3em;
 }
 .score-container .number-questions {
-    margin: 0;
-    font-size: 0.7em;
-    font-weight: lighter;
+  margin: 0;
+  font-size: 0.7em;
+  font-weight: lighter;
 }
 .wrong-number {
-    opacity: 0.7;
+  opacity: 0.7;
 }
-
-
 
 .rate-container {
-    text-align: center;
+  text-align: center;
 }
 .rate-us {
-    text-align: center;
-    margin-top: 100px;
-    background-color: rgb(71, 25, 109, 0);
-    border: solid rgba(255, 255, 255, 0.884) 3px;
-    color: rgba(255, 255, 255, 0.884);
-    width: 230px;
-    height: 60px;
-    font-size: 1.3em;
-    font-family: 'Roboto';
-    font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(71, 25, 109, 0);
+  border: solid rgba(255, 255, 255, 0.884) 3px;
+  color: rgba(255, 255, 255, 0.884);
+  width: 230px;
+  height: 60px;
+  font-size: 1.3em;
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .rate-us:hover {
-    border: solid #f66abe 3px;
-    color: #f66abe
+  border: solid #f66abe 3px;
+  color: #f66abe;
+}
+
+body {
+  color: #e7e7eb;
+  background: url(assets/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "roboto", sans-serif;
+}
+
+.welcome-container {
+  max-width: 1200px;
+  min-height: 400px;
+  margin-top: 50px;
+  margin-inline: auto;
+  margin-bottom: 100px;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.welcome-header {
+  font-size: 80px;
+  font-weight: 100;
+  max-width: 500px;
+}
+
+.welcome-header span {
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.welcome-header p {
+  margin-bottom: 0px;
+  line-height: 69px;
+}
+
+.welcome-instructions {
+  max-width: 500px;
+}
+
+.welcome-instructions-title {
+  color: #d20094;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.welcome-instructions-content {
+  line-height: 21px;
+  margin-top: 10px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+.welcome-instructions-content-bold {
+  font-weight: 800;
+}
+
+.welcome-instructions-list {
+  line-height: 27px;
+  font-weight: 100;
+}
+
+.quiz-agreement {
+  position: absolute;
+}
+
+.proceed-field {
+  position: absolute;
+  right: 0;
+  top: 36px;
+}
+
+.welcome-proceed-box {
+  position: relative;
+  max-width: 800px;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.proceed-button {
+  background-color: #01ffff;
+  width: 200px;
+  height: 60px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+}
+
+.checkbox-agreement {
+  position: absolute;
+  top: 50%;
 }
