@@ -96,9 +96,11 @@ const questions = [
 let shuffledQuestions = questions.sort(() => Math.random() - 0.5);
 let currentIndexQuestion = -1;
 let counter = 0;
+let numberOfQuestion = document.getElementById("counter");
 
 function show() {
   currentIndexQuestion++;
+  numberOfQuestion.innerText = currentIndexQuestion + 1;
   let quizContainer = document.getElementById("quiz");
   let quizSpace = document.createElement("div");
   quizSpace.innerHTML = `<div>${shuffledQuestions[currentIndexQuestion].question}</div>`;
@@ -140,6 +142,7 @@ function hide() {
   }
 
   document.querySelector(".for-hide").remove();
+  console.log(numberOfQuestion);
   show();
 }
 
