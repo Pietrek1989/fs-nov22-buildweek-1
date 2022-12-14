@@ -1,72 +1,110 @@
-body {
-	color: white;
-	background: url(assets/bg.jpg) no-repeat center center fixed;
-	background-size: cover;
-    font-family: 'roboto', sans-serif;
+body{
     margin: 0;
-}
-
-/* Style of result-page */
-
-.nav-logo {
-    width: 230px;
-    height: 60px;
-    margin-top: 40px;
-    margin-left: 94px;
-}
-.result {
+  }
+  .container{
+    background: url(bg.jpg) no-repeat center center fixed;
+      background-size: cover;
     text-align: center;
-    font-weight: bolder;
-    font-size: 4em;
-    margin-bottom: 0;
-}
-.summary {
-    text-align: center;
-    margin-top: 0;
-    font-weight: 100;
-}
-.score-container {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+  }
+  .nav-logo {
+      width: 173px;
+      height: 40px;
+      line-height: 28px;
+      margin-top: 10px;
+      margin-right: 60%;
+      vertical-align: middle;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+  .english{
+    width: 32px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  h2{
+    font-size: 50px;
+    margin-bottom: 8px;
+  }
+  h3{
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .correct-block, .wrong-block{
+    margin: 100px;
+  }
+  .span-check{
+    color: rgb(0, 255, 255);
+    cursor: pointer;
+  }
+
+  span{
+    font-size: 18.4px;
+  }
+  .summary {
+      text-align: center;
+      margin-top: 0;
+      font-weight: 100;
+  }
+  .score-container h2 {
+          margin: 0;
+  }
+  .score-container {
     display: flex;
-    justify-content: space-around;
-    font-size: 2.2em;
-    font-weight: normal;
-    margin: 0;
-}
-.score-container h2 {
-        margin: 0;
-}
-.score-container .percent {
-    margin: 0;
-    font-weight: 900;
-    font-size: 1.3em;
-}
-.score-container .number-questions {
-    margin: 0;
-    font-size: 0.7em;
-    font-weight: lighter;
-}
-.wrong-number {
-    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
 }
 
+  .score-container .percent {
+      margin: 0;
+  }
+  .score-container .number-questions {
+      margin: 0;
+      font-weight: lighter;
+  }
+  
+  .rate-container {
+      text-align: center;
+  }
+  .rate-us {
+      text-align: center;
+      margin-top: 100px;
+      background-color: rgb(71, 25, 109, 0);
+      border: solid rgba(255, 255, 255, 0.884) 3px;
+      color: rgba(255, 255, 255, 0.884);
+      width: 230px;
+      height: 60px;
+      font-size: 1.3em;
+      font-weight: bold;
+  }
+  .rate-us:hover {
+      border: solid #f66abe 3px;
+      color: #f66abe
+  }
+  .span-bold{
+    font-weight: 700;
+    line-height: 25.6px;
+  }
+  .span-font{
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: .05em;
+  }
+  #button{
+      height: 80px;
+      width: 350px;
+      margin-top: 3em;
+      font-weight: bold;
+      text-align: center;
+      font-size: 2em;
+      place-items: center;
+      cursor: pointer;
+      border-color: white;
+      background: transparent;
+      color: white;
+  }
 
-
-.rate-container {
-    text-align: center;
-}
-.rate-us {
-    text-align: center;
-    margin-top: 100px;
-    background-color: rgb(71, 25, 109, 0);
-    border: solid rgba(255, 255, 255, 0.884) 3px;
-    color: rgba(255, 255, 255, 0.884);
-    width: 230px;
-    height: 60px;
-    font-size: 1.3em;
-    font-family: 'Roboto';
-    font-weight: bold;
-}
-.rate-us:hover {
-    border: solid #f66abe 3px;
-    color: #f66abe
-}
