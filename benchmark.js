@@ -1,6 +1,7 @@
 const questions = [
   {
     category: "Science: Computers",
+    timeToComplete: 60,
     type: "multiple",
     difficulty: "easy",
     question: "What does CPU stand for?",
@@ -13,6 +14,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 120,
     type: "multiple",
     difficulty: "easy",
     question:
@@ -22,6 +24,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 50,
     type: "boolean",
     difficulty: "easy",
     question: "The logo for Snapchat is a Bell.",
@@ -30,6 +33,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 40,
     type: "boolean",
     difficulty: "easy",
     question:
@@ -39,6 +43,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 180,
     type: "multiple",
     difficulty: "easy",
     question:
@@ -48,6 +53,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 20,
     type: "multiple",
     difficulty: "easy",
     question: "In web design, what does CSS stand for?",
@@ -60,6 +66,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 45,
     type: "multiple",
     difficulty: "easy",
     question:
@@ -69,6 +76,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 30,
     type: "multiple",
     difficulty: "easy",
     question: "On Twitter, what is the character limit for a Tweet?",
@@ -77,6 +85,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 500,
     type: "boolean",
     difficulty: "easy",
     question: "Linux was first created as an alternative to Windows XP.",
@@ -85,6 +94,7 @@ const questions = [
   },
   {
     category: "Science: Computers",
+    timeToComplete: 25,
     type: "multiple",
     difficulty: "easy",
     question:
@@ -121,6 +131,7 @@ function show() {
   button.setAttribute("id", "next-button");
   quizSpace.append(button);
   button.addEventListener("click", hide);
+  startTimer(shuffledQuestions[currentIndexQuestion].timeToComplete + 1);
 }
 
 function selectAnswer(event) {

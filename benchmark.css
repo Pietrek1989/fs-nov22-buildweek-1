@@ -1,101 +1,101 @@
 body {
-	color: white;
-	background: url(assets/bg.jpg) no-repeat center center fixed;
-	background-size: cover;
-    font-family: 'roboto', sans-serif;
-    margin: 0;
+  color: white;
+  background: url(assets/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "roboto", sans-serif;
+  margin: 0;
 }
 .nav-logo {
-    width: 230px;
-    height: 60px;
-    margin-top: 40px;
-    margin-left: 94px;
+  width: 230px;
+  height: 60px;
+  margin-top: 40px;
+  margin-left: 94px;
 }
 
+#timer {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
 /* Benchmark syles */
 
 #quiz-question {
- 
-    height: 70vh;
+  height: 70vh;
 }
 .newDivContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 500px;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .question {
-    text-align: center;
-    font-size: 2em;
-    max-width: 500px;
-    margin-inline: auto;
-    text-align: center;
-    font-size: 2em;
-    max-width: 582px;
-    margin-inline: auto;
-    padding: 0px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
+  text-align: center;
+  font-size: 2em;
+  max-width: 500px;
+  margin-inline: auto;
+  text-align: center;
+  font-size: 2em;
+  max-width: 582px;
+  margin-inline: auto;
+  padding: 0px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
 }
 
 .answer-button {
-    width: 250px;
-    height: 50px;
-    background-color: rgb(255, 255, 255, 0.1);
-    color: white;
-    /* border-image: linear-gradient(71deg, rgb(255, 255, 255), rgba(32, 32, 32, 0.166)) 1; */
-    box-shadow: -4px -3px 13px -3px rgb(10 8 7) inset; 
-    border: solid 2px rgba(209, 209, 216, 1); 
-    margin-inline: auto;
-    text-align: center;
-    font-size: 0.5em;
-    line-height: 40px;
-    margin: 5px;
-    margin-top: 30px;
-    border-radius: 33px;
-    
+  width: 250px;
+  height: 50px;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: white;
+  /* border-image: linear-gradient(71deg, rgb(255, 255, 255), rgba(32, 32, 32, 0.166)) 1; */
+  box-shadow: -4px -3px 13px -3px rgb(10 8 7) inset;
+  border: solid 2px rgba(209, 209, 216, 1);
+  margin-inline: auto;
+  text-align: center;
+  font-size: 0.5em;
+  line-height: 40px;
+  margin: 5px;
+  margin-top: 30px;
+  border-radius: 33px;
 }
 .next-button-container {
-    text-align: center;
+  text-align: center;
 }
 #next-button {
-    text-align: center;
-    margin-top: 100px;
-    background-color: rgb(71, 25, 109, 0);
-    border: solid rgba(255, 255, 255, 0.884) 3px;
-    color: rgba(255, 255, 255, 0.884);
-    width: 142px;
-    height: 60px;
-    font-size: 1em;
-    font-family: 'Roboto';
-    font-weight: bold;
-    margin-bottom: 50px
-
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(71, 25, 109, 0);
+  border: solid rgba(255, 255, 255, 0.884) 3px;
+  color: rgba(255, 255, 255, 0.884);
+  width: 142px;
+  height: 60px;
+  font-size: 1em;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 #next-button:hover {
-    border: solid #f66abe 3px;
-    color: #f66abe;
-
+  border: solid #f66abe 3px;
+  color: #f66abe;
 }
 
 #question-count {
-    text-align: center;
-    letter-spacing: 2px;
-    
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 .number-of-questions {
-    color:#b01fd7
+  color: #b01fd7;
 }
 .hidden {
-    display: none;
+  display: none;
 }
 .selected {
-    background-color: #f66abe;
+  background-color: #f66abe;
 }
 .purple-color {
-    color: #f66abe;;
+  color: #f66abe;
 }
