@@ -94,6 +94,7 @@ const questions = [
   },
 ];
 let shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+
 let currentIndexQuestion = -1;
 let counterCorrect = 0;
 let counterIncorrect = 0;
@@ -109,7 +110,9 @@ function show() {
   quizContainer.append(quizSpace);
   let newwArr = [...shuffledQuestions[currentIndexQuestion].incorrect_answers];
   newwArr.push(shuffledQuestions[currentIndexQuestion].correct_answer);
-  for (const iterator of newwArr) {
+  let shuffledAnswers = newwArr.sort(() => Math.random() - 0.5);
+  console.log(shuffledAnswers);
+  for (const iterator of shuffledAnswers) {
     let answerDiv = document.createElement("div");
     answerDiv.innerText = iterator;
     answerDiv.classList.add("answer-button");
@@ -129,16 +132,19 @@ function selectAnswer(event) {
 
 function hide() {
   let selectedElements = document.querySelector(".selected");
-  if (
+  if (selectedElements === null || selectedElements === undefined) {
+    counterIncorrect++;
+    console.log("Nothing clicked and incorrect answers:", counterIncorrect);
+  } else if (
     selectedElements.classList.contains("selected") &&
-    selectedElements.innerText ===
+    selectedElements.innerText !==
       questions[currentIndexQuestion].correct_answer
   ) {
-    counterCorrect++;
-    console.log("correct answers:", counterCorrect);
-  } else {
     counterIncorrect++;
     console.log("incorrect answers:", counterIncorrect);
+  } else {
+    counterCorrect++;
+    console.log("correct answers:", counterCorrect);
   }
 
   document.querySelector(".for-hide").remove();
