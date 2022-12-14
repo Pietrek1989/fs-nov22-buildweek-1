@@ -142,7 +142,24 @@ function hide() {
   }
 
   document.querySelector(".for-hide").remove();
-  show();
+  if (currentIndexQuestion + 1 < questions.length) {
+    show();
+  } else {
+    window.localStorage.setItem(
+      "correctAnswers",
+      JSON.stringify(counterCorrect)
+    );
+    window.localStorage.setItem(
+      "wrongAnswers",
+      JSON.stringify(counterIncorrect)
+    );
+    window.localStorage.setItem(
+      "numberOfQuestions",
+      JSON.stringify(questions.length)
+    );
+
+    window.location.href = "result.html";
+  }
 }
 
 function selectAnswer(event) {
