@@ -119,39 +119,25 @@ span {
 }
 
 .chart-text {
-  font: 1.5px;
-  fill: white;
-  -moz-transform: translateY(-5em);
-  -ms-transform: translateY(-5em);
-  -webkit-transform: translateY(0.25em);
-  transform: translateY(0.25em);
+  color: white;
+  font-size: 16px;
+  margin-top: -235px;
+  max-width: 150px;
+  margin-inline: auto;
 }
 
 .chart-number {
-  font-size: 2.5px;
+  font-size: 16px;
   line-height: 1;
-  text-anchor: middle;
-  -moz-transform: translateY(-0.5em);
-  -ms-transform: translateY(-0.5em);
-  -webkit-transform: translateY(-0.25em);
-  transform: translateY(-4em);
+  font-weight: bold;
 }
 .chart-second {
-  font-size: 2.5px;
+  font-size: 14px;
   line-height: 1;
-  text-anchor: middle;
-  -moz-transform: translateY(-0.5em);
-  -ms-transform: translateY(-0.5em);
-  -webkit-transform: translateY(-0.25em);
-  transform: translateY(-3em);
+  font-weight: bold;
 }
 
 .chart-label {
-  font-size: 1.5px;
-  text-transform: uppercase;
-  text-anchor: middle;
-  -moz-transform: translateY(-5em);
-  -ms-transform: translateY(-5em);
-  -webkit-transform: translateY(0.7em);
-  transform: translateY(-3em);
+  font-size: 14px;
+  line-height: 1;
 }

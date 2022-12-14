@@ -63,7 +63,7 @@ function onloadOperations() {
     stroke-dasharray="${correctAnswerPercentage} ${wrongAnswerPercentage}"
     stroke-dashoffset="0"
   ></circle>
-  <g class="chart-text">       <text x="50%" y="50%" class="chart-number">         Congratulations!       </text>       <text x="50%" y="50%" class="chart-second">         You passed the exam.       </text>       <text x="50%" y="50%" class="chart-label">           We'll send you a certificate in a few minutes           Check your email (including promotion / spam folder)       </text>     </g>
+  <div class="chart-text">       <p class="chart-number">         Congratulations!       </p>       <p class="chart-second">         You passed the exam.       </p>       <p  class="chart-label">           We'll send you a certificate in a few minutes           Check your email (including promotion / spam folder)       </p>     </div>
 </svg>`;
 }
 
