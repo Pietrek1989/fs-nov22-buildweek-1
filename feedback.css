@@ -1,23 +1,24 @@
-body, html{
-  background-image: url("bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+body {
+  color: white;
+  background: url(assets/bg.jpg) no-repeat center center fixed;
   background-size: cover;
+  font-family: inter, sans-serif;
+  margin: 0;
 }
-.bg-img{
-  height: 100%;
-}
-.epicode-logo{
-  height: 70px;
-  margin-top: 50px;
-  margin-left: 150px;
+
+.nav-logo {
+  width: 200px;
+  height: 45px;
+  margin-top: 7VH;
+  margin-left: 22VH;
+  MARGIN-BOTTOM: 3VH;
 }
 h1{
   color: white;
   text-align: center;
   margin-top: 2em;
   font-size: 60px;
-  font-family: 'Outfit', sans-serif;
+  font-family: outfit, sans-serif;
 }
 h2{
   color: white;
@@ -27,7 +28,7 @@ h2{
   font-size: 2em;
   width: 100%;
   letter-spacing: 3px;
-  font-family: 'Outfit', sans-serif;
+  font-family: outfit, sans-serif;
 }
 #first-h2{
   margin-bottom: 0;
@@ -42,6 +43,7 @@ h2 span{
   border: none;
   height: 2em;
   font-size: x-large ;
+  color: white;
 }
 hr{
   width:1000px;

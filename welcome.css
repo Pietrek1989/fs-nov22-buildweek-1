@@ -2,7 +2,7 @@ body {
   color: #e7e7eb;
   background: url(assets/bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  font-family: "roboto", sans-serif;
+  font-family: outfit, sans-serif;
 }
 
 .welcome-container {
@@ -88,6 +88,12 @@ body {
   font-weight: 800;
   border: none;
   box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+}
+
+#proceed-button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
+
 }
 
 .checkbox-agreement {
