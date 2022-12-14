@@ -95,7 +95,8 @@ const questions = [
 ];
 let shuffledQuestions = questions.sort(() => Math.random() - 0.5);
 let currentIndexQuestion = -1;
-let counter = 0;
+let counterCorrect = 0;
+let counterIncorrect = 0;
 let numberOfQuestion = document.getElementById("counter");
 
 function show() {
@@ -127,22 +128,20 @@ function selectAnswer(event) {
 }
 
 function hide() {
-  console.log("clicked");
   let selectedElements = document.querySelector(".selected");
-  console.log(selectedElements);
   if (
     selectedElements.classList.contains("selected") &&
     selectedElements.innerText ===
       questions[currentIndexQuestion].correct_answer
   ) {
-    counter++;
-    console.log(counter);
+    counterCorrect++;
+    console.log("correct answers:", counterCorrect);
   } else {
-    console.log("wrong answer");
+    counterIncorrect++;
+    console.log("incorrect answers:", counterIncorrect);
   }
 
   document.querySelector(".for-hide").remove();
-  console.log(numberOfQuestion);
   show();
 }
 
