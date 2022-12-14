@@ -94,4 +94,17 @@ body{
     line-height: 1.4;
     letter-spacing: .05em;
   }
+  #button{
+      height: 80px;
+      width: 350px;
+      margin-top: 3em;
+      font-weight: bold;
+      text-align: center;
+      font-size: 2em;
+      place-items: center;
+      cursor: pointer;
+      border-color: white;
+      background: transparent;
+      color: white;
+  }
 
