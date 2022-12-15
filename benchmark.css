@@ -6,11 +6,13 @@ body {
   margin: 0;
 }
 .nav-logo {
+  position: absolute;
   width: 200px;
-  height: 45px;
-  margin-top: 7vh;
-  margin-left: 22vh;
-  margin-bottom: 3vh;
+  height: 46px;
+  top: 100;
+  left: 100;
+  top: 52px;
+  left: 160px;
 }
 .logo-container {
   width: 100%;
@@ -22,6 +24,10 @@ body {
   top: 44px;
 }
 /* Benchmark syles */
+
+#quiz {
+  margin-top: 50px;
+}
 
 #quiz-question {
   height: 70vh;
@@ -93,10 +99,12 @@ body {
 
 }
 #next-button:hover {
-  border: solid #f66abe 3px;
-  color: #f66abe;
-  cursor: pointer;
-}
+    background-color: #01ffff;
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  }
+
 
 #question-count {
   text-align: center;
