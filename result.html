@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Results</title>
-    <link rel="stylesheet" href="result.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&family=Roboto:wght@500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="nav">
-        <img src="epicode_logo.png" class="nav-logo" alt="logo" />
-        <img src="uk.svg" class="english" alt="flag" />
-      </div>
-      <div>
-        <h2 class="result">Results</h2>
-        <h3 class="summary">The summary of your answers:</h3>
-        <span class="span-check">Check your answers</span>
-      </div>
-      <div id="score-container" class="score-container">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results</title>
+  <link rel="stylesheet" href="result.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+        <div class="nav">
+          <img src="epicode_logo.png" class="nav-logo" alt="logo">
+          <img src="uk.svg" class="english" alt="flag">
+        </div>
+        <div>
+            <h2 class="result">Results</h2>
+            <h3 class="summary">The summary of your answers:</h3>
+            <span class="span-check">Check your answers</span>
+        </div>
+    <div class="score-container">
         <div class="correct-block">
           <h2>Correct</h2>
           <h2 id="correct-answer-percentage">66.6%</h2>
-          <span id="correct-answer-absolute" class="number-questions"
-            >x/x questions</span
-          >
-        </div>
-        <div id="circle-svg" class="circle-svg"></div>
-
+          <span id="correct-answer-absolute" class="number-questions">x/x questions</span>
+         </div>
+    <svg width="25%" height="25%" viewBox="0 0 42 42" class="donut">
+    <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent">test</circle>
+    <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#991e8f" stroke-width="5.5"></circle>
+    <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00FFFF" stroke-width="5.5" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+    </svg>
+    
         <div class="wrong-block">
           <h2>Wrong</h2>
           <h2 id="wrong-answer-percentage">33.4%</h2>
-          <span id="wrong-answer-absolute" class="number-questions"
-            >x/x questions</span
-          >
-        </div>
-      </div>
-      <div>
-        <button onclick="window.location.href = 'feedback.html';" id="button">
-          RATE US
-        </button>
-      </div>
+          <span id="wrong-answer-absolute" class="number-questions">x/x questions</span>
+          </div>
     </div>
-    <script src="result.js"></script>
-  </body>
+        <div>
+          <span class="span-bold">Congratulations, you passed the exam!</span>
+          <br>
+          <span class="span-font">We'll send you a certificate in a few minutes</span>
+          <br>
+          <span class="span-font">Check your email (including promotion / spam folder)</span>
+        </div>
+        <div>
+         <button onclick="window.location.href = 'feedback.html';" id="button">RATE US</button>
+        </div>
+</div>
+<script src="result.js"></script>
+</body>
 </html>
