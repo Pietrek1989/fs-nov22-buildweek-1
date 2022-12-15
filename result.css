@@ -11,7 +11,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.nav {
+.nav{
   text-align: right;
   margin-right: 20px;
 }
@@ -28,7 +28,6 @@ body {
   width: 32px;
   margin-top: 10px;
   cursor: pointer;
-  
 }
 h2 {
   font-size: 50px;
@@ -42,11 +41,6 @@ h3 {
 .wrong-block {
   margin: 100px;
 }
-.span-check {
-  color: rgb(0, 255, 255);
-  cursor: pointer;
-}
-
 span {
   font-size: 18.4px;
 }
@@ -75,7 +69,17 @@ span {
 .rate-container {
   text-align: center;
 }
-
+.rate-us {
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(71, 25, 109, 0);
+  border: solid rgba(255, 255, 255, 0.884) 3px;
+  color: rgba(255, 255, 255, 0.884);
+  width: 230px;
+  height: 60px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
 .span-bold {
   font-weight: 700;
   line-height: 25.6px;
@@ -87,26 +91,22 @@ span {
 }
 #button {
   text-align: center;
-  margin-top: 40px;
-  background-color: rgb(71, 25, 109, 0);
-  border: solid rgba(255, 255, 255, 0.884) 3px;
-  color: rgba(255, 255, 255, 0.884);
-  margin-bottom: 65px;
+  margin-top: 100px;
+  background-color: #01ffff;
+  border: none;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  margin-bottom: 50px;
   width: 200px;
   height: 60px;
   font-family: inherit;
   font-size: 20px;
   font-weight: 800;
+
 }
-
-
 #button:hover {
-    background-color: #01ffff;
-    color: black;
-    cursor: pointer;
-    box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
-  }
-
+  cursor: pointer;
+  box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1)
+}
 
 .circle-svg {
   width: 300px;
@@ -132,6 +132,7 @@ span {
 }
 .chart-second {
   font-size: 14px;
+  color: rgb(0, 255, 255);
   line-height: 1;
   font-weight: bold;
 }
