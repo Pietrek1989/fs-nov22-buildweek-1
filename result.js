@@ -59,7 +59,7 @@ let circle = `<svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
   stroke="#00FFFF"
   stroke-width="5.5"
   stroke-dasharray="${correctAnswerPercentage} ${wrongAnswerPercentage}"
-  stroke-dashoffset="0"
+  stroke-dashoffset="45"
 ></circle>`;
 
 function onloadOperations() {

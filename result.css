@@ -97,7 +97,7 @@ span {
 }
 #button {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 25px;
   background-color: rgb(71, 25, 109, 0);
   border: solid rgba(255, 255, 255, 0.884) 3px;
   color: rgba(255, 255, 255, 0.884);
@@ -107,15 +107,13 @@ span {
   font-family: inherit;
   font-size: 20px;
   font-weight: 800;
-
 }
 #button:hover {
-    background-color: #01ffff;
-    color: black;
-    cursor: pointer;
-    box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
-  }
-
+  background-color: #01ffff;
+  color: black;
+  cursor: pointer;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+}
 
 .circle-svg {
   width: 300px;
@@ -129,7 +127,7 @@ span {
 .chart-text {
   color: white;
   font-size: 16px;
-  margin-top: -235px;
+  margin-top: -233px;
   max-width: 150px;
   margin-inline: auto;
 }
@@ -146,6 +144,6 @@ span {
 }
 
 .chart-label {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1;
 }

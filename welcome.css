@@ -10,7 +10,7 @@ body {
   min-height: 400px;
   margin-top: 50px;
   margin-inline: auto;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -20,7 +20,7 @@ body {
 }
 
 .welcome-header {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 100;
   max-width: 500px;
 }
@@ -76,7 +76,7 @@ body {
   position: relative;
   max-width: 800px;
   height: 100px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .proceed-button {
@@ -93,7 +93,6 @@ body {
 #proceed-button:hover {
   cursor: pointer;
   box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
-
 }
 
 .checkbox-agreement {
