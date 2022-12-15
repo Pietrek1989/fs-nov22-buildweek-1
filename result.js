@@ -78,3 +78,7 @@ function onloadOperations() {
 }
 
 window.onload = onloadOperations;
+
+function goToIndex() {
+  window.location.href = "welcome.html";
+}

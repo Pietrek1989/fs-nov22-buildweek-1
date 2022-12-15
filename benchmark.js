@@ -184,3 +184,7 @@ function selectAnswer(event) {
 }
 
 window.onload = show();
+
+function goToIndex() {
+  window.location.href = "welcome.html";
+}
