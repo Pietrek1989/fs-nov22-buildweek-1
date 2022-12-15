@@ -83,20 +83,18 @@ body {
 #next-button {
   text-align: center;
   margin-top: 100px;
-  background-color: rgb(71, 25, 109, 0);
-  border: solid rgba(255, 255, 255, 0.884) 3px;
-  color: rgba(255, 255, 255, 0.884);
-
+  background-color: #01ffff;;
+  border: none;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  font-family: "Outfit", sans-serif;
   margin-bottom: 50px;
   width: 200px;
   height: 60px;
-  font-family: inherit;
   font-size: 20px;
   font-weight: 800;
 }
+
 #next-button:hover {
-  background-color: #01ffff;
-  color: black;
   cursor: pointer;
   box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
 }

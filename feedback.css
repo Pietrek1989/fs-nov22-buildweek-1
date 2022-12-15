@@ -91,7 +91,7 @@ a {
   transform: translate(-50%, -50%);
 }
 a:hover {
-  background-color: black;
+  background-color: #0c1139;
   transform: translate(-50%, -50%);
 }
 .rate {
@@ -109,7 +109,7 @@ a:hover {
   white-space: nowrap;
   cursor: pointer;
   font-size: 50px;
-  color: black;
+  color: #0c1139;
   margin-inline: auto;
 }
 .rate:not(:checked) > label:before {
