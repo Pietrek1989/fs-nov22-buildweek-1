@@ -130,7 +130,7 @@ function show() {
     quizSpace.append(answerDiv);
   }
   let button = document.createElement("button");
-  button.innerText = "Next";
+  button.innerText = "NEXT";
   button.setAttribute("id", "next-button");
   quizSpace.append(button);
   button.addEventListener("click", hide);

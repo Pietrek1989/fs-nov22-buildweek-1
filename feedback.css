@@ -57,19 +57,22 @@ hr{
   position: relative;
   width: 100%;
 }
-button{
-  background-color: #75fbfd;
-  height: 100px;
-  width: 350px;
-  margin-top: 3em;
-  font-weight: bold;
-  text-align: center;
-  font-size: 2em;
+button {
+  margin: 20px;
+  background-color: #01ffff;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
   border: none;
-  place-items: center;
-  margin-bottom: 50px;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+}
+
+button:hover {
   cursor: pointer;
-  box-shadow: 0 0 1em 0 #75fbfd;
+  box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
+
 }
 
 a{
