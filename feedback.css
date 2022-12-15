@@ -1,23 +1,32 @@
-body, html{
-  background-image: url("bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+body {
+  background: url(assets/bg.jpg) no-repeat center center fixed;
   background-size: cover;
+  margin: 0;
+  max-height: 100vh;
 }
-.bg-img{
-  height: 100%;
+.container {
+  text-align: center;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
-.epicode-logo{
-  height: 70px;
-  margin-top: 50px;
-  margin-left: 150px;
+
+.nav-logo {
+  position: absolute;
+  width: 200px;
+  height: 46px;
+  top: 100;
+  left: 100;
+  top: 52px;
+  left: 160px;
 }
 h1{
   color: white;
   text-align: center;
   margin-top: 2em;
   font-size: 60px;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 h2{
   color: white;
@@ -25,23 +34,25 @@ h2{
   margin-bottom: 2em;
   font-weight: normal;
   font-size: 2em;
-  width: 100%;
   letter-spacing: 3px;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 #first-h2{
   margin-bottom: 0;
+  margin-left: 1%;
 }
 h2 span{
-  margin-left: 14%;
+  text-align: center;
+  margin-right: 10px;
 }
 #text-input{
   text-align: center;
-  margin-left: 24%;
   background: transparent;
   border: none;
   height: 2em;
   font-size: x-large ;
+  color: white;
+  margin-right: 680px;
 }
 hr{
   width:1000px;
@@ -55,19 +66,22 @@ hr{
   position: relative;
   width: 100%;
 }
-button{
-  background-color: #75fbfd;
-  height: 100px;
-  width: 350px;
-  margin-top: 3em;
-  font-weight: bold;
-  text-align: center;
-  font-size: 2em;
+button {
+  margin: 20px;
+  background-color: #01ffff;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
   border: none;
-  place-items: center;
-  margin-bottom: 50px;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+}
+
+button:hover {
   cursor: pointer;
-  box-shadow: 0 0 1em 0 #75fbfd;
+  box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
+
 }
 
 a{
@@ -117,4 +131,7 @@ display: inline-block;
 text-align: center;
 margin-left: 0%;
 margin-top: 80px
+}
+#star1 > input:checked ~ label {
+  color: #75fbfd;
 }
