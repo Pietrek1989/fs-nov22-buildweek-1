@@ -106,23 +106,20 @@ span {
   letter-spacing: 0.05em;
 }
 #button {
-  text-align: center;
-  margin-top: 25px;
-  background-color: rgb(71, 25, 109, 0);
-  border: solid rgba(255, 255, 255, 0.884) 3px;
-  color: rgba(255, 255, 255, 0.884);
-  margin-bottom: 65px;
+  margin: 20px;
+  background-color: #01ffff;
   width: 200px;
   height: 60px;
-  font-family: inherit;
   font-size: 20px;
+  border: none;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  font-family: "Outfit", sans-serif;
   font-weight: 800;
 }
+
 #button:hover {
-  background-color: #01ffff;
-  color: black;
   cursor: pointer;
-  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
 }
 
 .circle-svg {

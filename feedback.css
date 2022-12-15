@@ -91,12 +91,13 @@ a {
   transform: translate(-50%, -50%);
 }
 a:hover {
-  background-color: black;
+  background-color: #0c1139;
   transform: translate(-50%, -50%);
 }
 .rate {
   margin-inline: auto;
   width: fit-content;
+  height: 20px;
 }
 .rate:not(:checked) > input {
   position: absolute;
@@ -109,7 +110,7 @@ a:hover {
   white-space: nowrap;
   cursor: pointer;
   font-size: 50px;
-  color: black;
+  color: #0c1139;
   margin-inline: auto;
 }
 .rate:not(:checked) > label:before {
@@ -130,7 +131,6 @@ a:hover {
   color: #75fbfd;
 }
 #second-h2 {
-  display: inline-block;
   text-align: center;
   margin-left: 0%;
   margin-top: 40px;
@@ -141,4 +141,10 @@ a:hover {
 }
 #button-rate {
   display: inline-block;
+}
+
+.second-h2 {
+  text-align: center;
+  width: fit-content;
+  margin-top: 20px;
 }
