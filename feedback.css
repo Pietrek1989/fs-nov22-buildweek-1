@@ -34,7 +34,6 @@ h2{
   margin-bottom: 2em;
   font-weight: normal;
   font-size: 2em;
-  letter-spacing: 3px;
   font-family: "Outfit", sans-serif;
 }
 #first-h2{
@@ -50,9 +49,13 @@ h2 span{
   background: transparent;
   border: none;
   height: 2em;
+  width: 800px;
   font-size: x-large ;
   color: white;
   margin-right: 680px;
+  width: 1006px;
+  margin-inline: auto;
+  outline: none;
 }
 hr{
   width:1000px;
