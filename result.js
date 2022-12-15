@@ -24,11 +24,11 @@ document.getElementById(
 
 document.getElementById(
   "correct-answer-absolute"
-).innerText = `${correctAnswers}/${numberOfQuestions}`;
+).innerText = `${correctAnswers}/${numberOfQuestions} Questions`;
 
 document.getElementById(
   "wrong-answer-absolute"
-).innerText = `${wrongAnswers}/${numberOfQuestions}`;
+).innerText = `${wrongAnswers}/${numberOfQuestions} Questions`;
 
 let circle = `<svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
 <circle
@@ -72,7 +72,7 @@ function onloadOperations() {
   } else {
     containerNode.innerHTML =
       circle +
-      `<div class="chart-text">       <p class="chart-number">         We're sorry!       </p>       <p class="chart-second">         You didn't pass the exam.       </p>       <p  class="chart-label">           But please try again! Good Luck!       </p>     </div>
+      `<div class="chart-text">       <p class="chart-number">         <br/> We're sorry!       </p>       <p class="chart-second">         You didn't pass the exam.       </p>       <p  class="chart-label">           But please try again! Good Luck!       </p>     </div>
 </svg>`;
   }
 }
