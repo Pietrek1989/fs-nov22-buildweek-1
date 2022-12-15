@@ -11,3 +11,7 @@ window.onload = setValue();
 function goToIndex() {
   window.location.href = "welcome.html";
 }
+
+function goToTeacherRate() {
+  window.location.href = "rate.html";
+}
