@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  max-height: 100vh
 }
 .container {
   background: url(bg.jpg) no-repeat center center fixed;
@@ -9,22 +10,25 @@ body {
   font-family: "Outfit", sans-serif;
   margin-left: auto;
   margin-right: auto;
-  min-height: 100vh;
+}
+.nav {
+  text-align: right;
+  margin-right: 20px;
 }
 .nav-logo {
-  width: 173px;
-  height: 40px;
-  line-height: 28px;
-  margin-top: 10px;
-  margin-right: 60%;
-  vertical-align: middle;
-  overflow-clip-margin: content-box;
-  overflow: clip;
+  position: absolute;
+  width: 200px;
+  height: 46px;
+  top: 100;
+  left: 100;
+  top: 52px;
+  left: 160px;
 }
 .english {
   width: 32px;
-  margin-top: 25px;
+  margin-top: 10px;
   cursor: pointer;
+  
 }
 h2 {
   font-size: 50px;
@@ -71,21 +75,7 @@ span {
 .rate-container {
   text-align: center;
 }
-.rate-us {
-  text-align: center;
-  margin-top: 100px;
-  background-color: rgb(71, 25, 109, 0);
-  border: solid rgba(255, 255, 255, 0.884) 3px;
-  color: rgba(255, 255, 255, 0.884);
-  width: 230px;
-  height: 60px;
-  font-size: 1.3em;
-  font-weight: bold;
-}
-.rate-us:hover {
-  border: solid #f66abe 3px;
-  color: #f66abe;
-}
+
 .span-bold {
   font-weight: 700;
   line-height: 25.6px;
@@ -97,18 +87,19 @@ span {
 }
 #button {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 40px;
   background-color: rgb(71, 25, 109, 0);
   border: solid rgba(255, 255, 255, 0.884) 3px;
   color: rgba(255, 255, 255, 0.884);
-  margin-bottom: 50px;
+  margin-bottom: 65px;
   width: 200px;
   height: 60px;
   font-family: inherit;
   font-size: 20px;
   font-weight: 800;
-
 }
+
+
 #button:hover {
     background-color: #01ffff;
     color: black;
