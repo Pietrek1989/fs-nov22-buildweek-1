@@ -140,6 +140,9 @@ a:hover {
 #star1 > input:checked ~ label {
   color: #75fbfd;
 }
+#button-rate {
+  display: inline-block;
+}
 
 .second-h2 {
   text-align: center;
