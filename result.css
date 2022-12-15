@@ -41,11 +41,6 @@ h3 {
 .wrong-block {
   margin: 100px;
 }
-.span-check {
-  color: rgb(0, 255, 255);
-  cursor: pointer;
-}
-
 span {
   font-size: 18.4px;
 }
@@ -74,7 +69,17 @@ span {
 .rate-container {
   text-align: center;
 }
-
+.rate-us {
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(71, 25, 109, 0);
+  border: solid rgba(255, 255, 255, 0.884) 3px;
+  color: rgba(255, 255, 255, 0.884);
+  width: 230px;
+  height: 60px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
 .span-bold {
   font-weight: 700;
   line-height: 25.6px;
@@ -97,7 +102,6 @@ span {
   font-size: 20px;
   font-weight: 800;
 }
-
 #button:hover {
   background-color: #01ffff;
   color: black;
@@ -129,6 +133,7 @@ span {
 }
 .chart-second {
   font-size: 14px;
+  color: rgb(0, 255, 255);
   line-height: 1;
   font-weight: bold;
 }
