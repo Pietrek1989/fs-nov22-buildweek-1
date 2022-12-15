@@ -7,8 +7,8 @@ body {
 
 .base-timer {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
 }
 
 .base-timer__svg {
@@ -21,13 +21,13 @@ body {
 }
 
 .base-timer__path-elapsed {
-  stroke-width: 7px;
-  stroke: rgba(221, 221, 221, 0.29);
+  stroke-width: 11px;
+  stroke: #9a699d80;
 }
 
 .base-timer__path-remaining {
-  stroke-width: 7px;
-  stroke-linecap: round;
+  stroke-width: 11px;
+  stroke-linecap: square;
   transform: rotate(90deg);
   transform-origin: center;
   transition: 1s linear all;
@@ -36,24 +36,30 @@ body {
 }
 
 .base-timer__path-remaining.green {
-  color: rgb(65, 184, 131);
+  color: #03ffff;
 }
 
 .base-timer__path-remaining.orange {
-  color: orange;
+  color: #d243b1;
 }
 
 .base-timer__path-remaining.red {
-  color: red;
+  color: rgb(234, 1, 129);
 }
 
 .base-timer__label {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
+  width: 120px;
+  height: 120px;
+  top: 35px;
+  right: 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.tiny-label {
+  font-size: 8px;
+  margin-top: -5px;
+  margin-bottom: -7px;
+  text-align: center;
 }

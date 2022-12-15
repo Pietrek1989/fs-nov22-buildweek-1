@@ -42,9 +42,9 @@ document.getElementById("timer").innerHTML = `
       ></path>
     </g>
   </svg>
-  <span id="base-timer-label" class="base-timer__label">${formatTime(
+  <span id="base-timer-label" class="base-timer__label"><p class="tiny-label">SEDCONDS</p> ${formatTime(
     timeLeft
-  )}</span>
+  )} <p class="tiny-label">REMAINING</p></span>
 </div>
 `;
 
@@ -75,7 +75,11 @@ function startTimer(limit) {
 function countDown() {
   timePassed = timePassed += 1;
   timeLeft = TIME_LIMIT - timePassed;
-  document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
+  document.getElementById(
+    "base-timer-label"
+  ).innerHTML = `<p class="tiny-label">SEDCONDS</p> ${formatTime(
+    timeLeft
+  )} <p class="tiny-label">REMAINING</p>`;
   setCircleDasharray();
   setRemainingPathColor(timeLeft);
 
@@ -92,7 +96,7 @@ function formatTime(timeLeft) {
     seconds = `0${seconds}`;
   }
 
-  return `${minutes}:${seconds}`;
+  return `${seconds}`;
 }
 
 function setRemainingPathColor(timeLeft) {

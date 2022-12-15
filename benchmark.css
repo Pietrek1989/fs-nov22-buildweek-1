@@ -18,8 +18,8 @@ body {
 
 #timer {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 225px;
+  top: 44px;
 }
 /* Benchmark syles */
 
@@ -47,7 +47,6 @@ body {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
-
 }
 
 .answer-button {
@@ -106,7 +105,7 @@ body {
   display: none;
 }
 .selected {
-  background-color: #A60084;
+  background-color: #a60084;
 }
 .purple-color {
   color: #f66abe;
