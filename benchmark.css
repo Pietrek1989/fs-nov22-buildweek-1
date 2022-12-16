@@ -95,8 +95,8 @@ body {
 }
 
 #next-button:hover {
-  cursor: pointer;
-  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+    cursor: pointer;
+    box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
 }
 
 #question-count {
