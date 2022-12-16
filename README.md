@@ -1,2 +1,5 @@
 # fs-nov22-build-week-1
- Piotr, Nicolai and Marius
+
+## Exam page
+
+##Joined project by nikolainiklaus, Pietrek1989 and MariusAuerbacher
