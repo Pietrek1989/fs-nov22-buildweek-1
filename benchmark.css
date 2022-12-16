@@ -1,0 +1,119 @@
+body {
+  color: white;
+  background: url(assets/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: outfit, sans-serif;
+  margin: 0;
+}
+.nav-logo {
+  cursor: pointer;
+  position: absolute;
+  width: 200px;
+  height: 46px;
+  top: 100;
+  left: 100;
+  top: 52px;
+  left: 160px;
+}
+.logo-container {
+  width: 100%;
+}
+
+#timer {
+  position: absolute;
+  right: 225px;
+  top: 44px;
+}
+/* Benchmark syles */
+
+#quiz {
+  margin-top: 50px;
+}
+
+#quiz-question {
+  height: 70vh;
+}
+.newDivContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.question {
+  text-align: center;
+  font-size: 2em;
+  max-width: 500px;
+  margin-inline: auto;
+  text-align: center;
+  font-size: 2em;
+  max-width: 582px;
+  margin-inline: auto;
+  padding: 0px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.answer-button {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: white;
+  box-shadow: -4px -3px 13px -3px rgb(10 8 7) inset;
+  border: solid 2px rgba(209, 209, 216, 1);
+  margin-inline: auto;
+  text-align: center;
+  font-size: 0.5em;
+  line-height: 50px;
+  margin: 5px;
+  margin-top: 50px;
+  border-radius: 33px;
+  font-family: inter;
+}
+.answer-button:hover {
+  cursor: pointer;
+}
+
+.next-button-container {
+  text-align: center;
+}
+
+#next-button {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #01ffff;;
+  border: none;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#next-button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+}
+
+#question-count {
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.number-of-questions {
+  color: #b01fd7;
+}
+.hidden {
+  display: none;
+}
+.selected {
+  background-color: #a60084;
+}
+.purple-color {
+  color: #f66abe;
+}

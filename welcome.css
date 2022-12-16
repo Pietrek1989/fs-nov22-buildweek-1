@@ -1,0 +1,101 @@
+body {
+  color: #e7e7eb;
+  background: url(assets/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: outfit, sans-serif;
+}
+
+.welcome-container {
+  max-width: 1200px;
+  min-height: 400px;
+  margin-top: 50px;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.welcome-header {
+  font-size: 70px;
+  font-weight: 100;
+  max-width: 500px;
+}
+
+.welcome-header span {
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.welcome-header p {
+  margin-bottom: 0px;
+  line-height: 69px;
+}
+
+.welcome-instructions {
+  max-width: 500px;
+}
+
+.welcome-instructions-title {
+  color: #d20094;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.welcome-instructions-content {
+  line-height: 21px;
+  margin-top: 10px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+.welcome-instructions-content-bold {
+  font-weight: 800;
+}
+
+.welcome-instructions-list {
+  line-height: 27px;
+  font-weight: 100;
+}
+
+.quiz-agreement {
+  position: absolute;
+}
+
+.proceed-field {
+  position: absolute;
+  right: 0;
+  top: 36px;
+}
+
+.welcome-proceed-box {
+  position: relative;
+  max-width: 900px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.proceed-button {
+  background-color: #01ffff;
+  width: 200px;
+  height: 60px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+}
+
+#proceed-button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
+}
+
+.checkbox-agreement {
+  position: absolute;
+  top: 50%;
+}

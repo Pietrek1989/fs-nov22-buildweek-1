@@ -1,0 +1,156 @@
+body {
+  background: url(bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  max-height: 100vh;
+}
+.container {
+  text-align: center;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-logo {
+  cursor: pointer;
+  position: absolute;
+  width: 200px;
+  height: 46px;
+  top: 100;
+  left: 100;
+  top: 52px;
+  left: 160px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family: "Outfit", sans-serif;
+}
+h2 {
+  color: white;
+  margin-bottom: 2em;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: "Outfit", sans-serif;
+}
+#first-h2 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 33px;
+}
+h2 span {
+  text-align: center;
+  margin-right: 10px;
+}
+#text-input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  height: 2em;
+  width: 600px;
+  font-size: 20px;
+  color: white;
+  width: 1006px;
+  margin-inline: auto;
+  outline: none;
+}
+hr {
+  width: 700px;
+  height: 2px;
+  margin: auto;
+  background-color: #b22b89;
+  border: none;
+}
+.button-div {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+button {
+  margin: 20px;
+  background-color: #01ffff;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 5px 5px 65px 1px rgba(1, 255, 255, 1);
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 65px 10px rgba(1, 255, 255, 1);
+}
+
+a {
+  display: inline-flex;
+  transform: translate(-50%, -50%);
+}
+a:hover {
+  background-color: #0c1139;
+  transform: translate(-50%, -50%);
+}
+.rate {
+  margin-inline: auto;
+  width: fit-content;
+  height: 20px;
+  margin-bottom: 30px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 50px;
+  color: #0c1139;
+  margin-inline: auto;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #75fbfd;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #75fbfd;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #75fbfd;
+}
+#second-h2 {
+  text-align: center;
+  margin-left: 0%;
+  margin-top: 40px;
+  font-size: 24px;
+}
+#star1 > input:checked ~ label {
+  color: #75fbfd;
+}
+#button-rate {
+  display: inline-block;
+}
+
+.second-h2 {
+  text-align: center;
+  width: fit-content;
+  margin-top: 20px;
+  margin-inline: auto;
+}
+
+.rating-div {
+  height: 70px;
+}

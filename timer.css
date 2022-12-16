@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.base-timer {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 11px;
+  stroke: #9a699d80;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 11px;
+  stroke-linecap: square;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: #03ffff;
+}
+
+.base-timer__path-remaining.orange {
+  color: #d243b1;
+}
+
+.base-timer__path-remaining.red {
+  color: rgb(234, 1, 129);
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 35px;
+  right: 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.tiny-label {
+  font-size: 8px;
+  margin-top: -5px;
+  margin-bottom: -7px;
+  text-align: center;
+}
