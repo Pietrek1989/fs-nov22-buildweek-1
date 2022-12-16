@@ -1,5 +1,5 @@
 # fs-nov22-build-week-1
 
-## Exam page
+## Benchmark Quiz Project
 
-## Joined project by nikolainiklaus, Pietrek1989 and MariusAuerbacher
+## Joined effort by nikolainiklaus, Pietrek1989 and MariusAuerbacher
