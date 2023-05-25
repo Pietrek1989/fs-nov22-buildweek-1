@@ -1,5 +1,12 @@
-# fs-nov22-build-week-1
+# Benchmark Quiz Project
 
-## Benchmark Quiz Project
+## About
 
-## Joined effort by nikolainiklaus, Pietrek1989 and MariusAuerbacher
+This project is a benchmark quiz page designed to test and evaluate your knowledge. Created using HTML, CSS, and JavaScript, it features a variety of questions  Upon completion, users are presented with their results, giving immediate feedback on their performance. With its simple and responsive design, this benchmark quiz offers an engaging way to challenge your knowledge and learn at the same time.
+
+## JOINT TEAM EFFORT
+
+[@Pietrek1989](https://github.com/Pietrek1989)
+[@nikolainiklaus](https://github.com/nikolainiklaus)
+[@MariusAuerbacher](https://github.com/MariusAuerbacher)
+
